@@ -12,6 +12,7 @@ const Nav = () => {
           <Link
             activeClass="active"
             spy={true}
+            offset={-200}
             smooth={true}
             to="home"
             className="cursor-pointer flex items-center justify-center w-[60px] h-[60px]"
