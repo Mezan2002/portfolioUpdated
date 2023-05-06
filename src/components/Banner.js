@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/MezanurRahman'sResumeWebDeveloper.pdf";
 
 //images import here
 import Image from "../assets/avatar3.png";
@@ -12,7 +13,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
-import { Link } from "react-scroll";
+
 const Banner = () => {
   return (
     <section
@@ -73,8 +74,19 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex items-center max-w-max gap-x-6 mb-6 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact Me</button>
-              <a href="#home" className="text-gradient btn-link">
+              <a
+                href="https://www.linkedin.com/in/mezanurrahman2002/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-lg">Contact Me</button>
+              </a>
+              <a
+                href={Resume}
+                target="_blank"
+                rel="noreferrer"
+                className="text-gradient btn-link"
+              >
                 Resume
               </a>
             </motion.div>
