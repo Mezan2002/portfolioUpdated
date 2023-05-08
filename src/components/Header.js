@@ -2,6 +2,7 @@ import React from "react";
 
 //images import here
 import Logo from "../assets/logo.png";
+import Resume from "../assets/MezanurRahman'sResumeWebDeveloper.pdf";
 
 //icons
 import { BsDownload } from "react-icons/bs";
@@ -17,7 +18,7 @@ const Header = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1TNoZZ2BwYg-4USwr3uxjDwWGJ-nWwnw_/view?usp=share_link"
+            href={Resume}
             rel="noreferrer"
             target="_blank"
             className="btn btn-sm w-36 flex justify-between items-center"

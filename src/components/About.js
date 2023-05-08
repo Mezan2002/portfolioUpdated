@@ -43,7 +43,7 @@ const About = () => {
               enjoy working with new technologies and love to explore a lot.
             </p>
             {/* counters */}
-            <div className="flex lg:gap-x-12 gap-x-5 mb-12">
+            <div className="flex lg:gap-x-12 gap-x-5 mb-12 mt-5 lg:mt-0">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   0{inView ? <CountUp start={0} end={2} duration={3} /> : null}
